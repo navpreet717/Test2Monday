@@ -10,6 +10,7 @@ public class Main {
 		while (choice != 4) {
 			// 1. show the menu
 			showMenu();
+			
 	
 			// 2. get the user input
 			System.out.println("Enter a number: ");
@@ -17,9 +18,15 @@ public class Main {
 			
 			// 3. DEBUG: Output what the user typed in 
 			System.out.println("You entered: " + choice);
-			System.out.println();
+			System.out.println("");
+			
+			TwoDimensionalShape Tr1=new Triangle(2, 3, "black");
+			Tr1.calculateArea();
+			TwoDimensionalShape Sqr=new Square(3, "Blue");
+			Sqr.calculateArea();
 		}
 	}
+	
 	
 	public static void showMenu() {
 		System.out.println("AREA GENERATOR");
