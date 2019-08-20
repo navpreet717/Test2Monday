@@ -5,6 +5,8 @@ public class Triangle extends Shape implements TwoDimensionalShape {
 private String color;
 public Triangle(double base,double height,String color)
 {
+	this.base=base;
+	this.height=height;
 	this.color=color;
 
 }

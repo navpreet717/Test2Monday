@@ -3,6 +3,7 @@ public class Square extends Shape implements TwoDimensionalShape {
 	private String color;
 	public Square(double side,String color)
 	{
+		this.side=side;
 		this.color=color;
 	}
 	public String getColor() {
